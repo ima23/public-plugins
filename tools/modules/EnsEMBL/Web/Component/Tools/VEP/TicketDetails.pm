@@ -132,6 +132,8 @@ sub job_details_table {
 
       $command_string .= ' --'.$opt;
 
+      if ($opt eq 'distance'){ $value = 'yes'; }
+
       unless($value eq 'yes') {
 
         # get rid of any internal paths
