@@ -480,7 +480,7 @@ sub _build_extra {
     'label'       => $fd->{distance}->{label},
     'helptip'     => $fd->{distance}->{helptip},
     'value'       => $fd->{distance}->{value},
-    'checked'     => 0,
+    'checked'     => 1,
   });
 
   $self->_end_section(\@fieldsets, $fieldset, $current_section);
